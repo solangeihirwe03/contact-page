@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/create" element={<Create />}></Route>
-          <Route path="/update" element={<Update />}></Route>
-          <Route path="/read" element={<Read />}></Route>
+          <Route path="/" element={<Home />}>home</Route>
+          <Route path="/create" element={<Create />}>create</Route>
+          <Route path="/update" element={<Update />}>update</Route>
+          <Route path="/read" element={<Read />}>read</Route>
         </Routes>
       </BrowserRouter>
   );
